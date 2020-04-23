@@ -1,0 +1,8 @@
+/* Background Image */
+
+.backgroundImage {
+    background-image: url("/images/course/header-background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
