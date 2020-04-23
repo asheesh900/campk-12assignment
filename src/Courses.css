@@ -3,6 +3,162 @@
 .backgroundImage {
     background-image: url("/images/course/header-background.svg");
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 600px;
+}
+
+/* Navbar */
+
+nav ul li button {
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.innerUl li {
+    color: white;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Showcase */
+
+.showcaseOnlineCourses {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.25;
+    margin: 30px;
+
+}
+
+.showcaseOnlineCourses div div h6 {
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}
+
+.showcaseOnlineCourses div div p {
+    width: 230px;
+    height: 45px;
+    opacity: 0.88;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: normal;
+}
+
+.btnBookTrial {
+    border: none;
+    width: 291px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #f5a623;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Background Rectangle */
+
+.rectangle {
+    width: 100%;
+    height: 1265px;
+    background-color: #dbf2ff;
+    position: relative;
+  }
+
+.grades {
+    position: absolute;
+    z-index: 2;
+    top: -3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.grades button {
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+    border: solid 1px #d8e4eb; 
+}
+
+/* Showcase of all the courses */
+
+.showingAllCourses {
+    width: 1205px;
+    height: 1207px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+}
+
+.coursesTopbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.coursesTopbar select {
+    width: 20%;
+    height: 40px;
+    border-radius: 4px;
+    border: solid 1px #d8e4eb;
+    background-color: #ffffff;
+}
+
+/* Course Card */
+
+.courseCardImage {
+    height: 138px;
+}
+
+.courseCardBody {
+    font-family: sans-serif;
+}
+
+.courseCardTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.courseCardBody1 {
+    font-size: 12px;
+}
+
+.courseCardBody2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5em;
+    letter-spacing: 0.01em;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.btnLearnMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnLearnMore button {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #076fec;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
 }

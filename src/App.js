@@ -1,18 +1,10 @@
 import React from 'react';
-import Home from './Components/Home'
-import Courses from './Components/Courses';
+import Dashboard from './Components/Dashboard';
 
 function App() {
   return (
     <>
-      <div className="app">
-        <Home />
-      </div>
-        <br />
-        <br />
-      <div>
-        {/* <Courses /> */}
-      </div>
+      <Dashboard />
     </>
   );
 }
