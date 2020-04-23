@@ -8,8 +8,8 @@ export default class Dashboard extends Component {
         return (
             <>
                <div className = "d-flex justify-content-between">
-                   <Link className = "btn" to = "/home">Home</Link>
-                   <Link className = "btn" to = "/courses">Courses</Link>
+                   <Link className = "btn btn-primary text-light m-1" to = "/home">Home</Link>
+                   <Link className = "btn btn-primary text-light m-1" to = "/courses">Courses</Link>
                </div> 
 
                <div>
