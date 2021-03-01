@@ -8,7 +8,8 @@ Overview:
 
 **Code setup:**
 ```
-        _File Name_: CustomerSideSelectProject.jsx
+        *File Name* : CustomerSideSelectProject.jsx
+        
         Sub-component: CustomerSideNavbar.jsx, CustomerSideSelectProjectCards.jsx
         Actions: getProjects, logout, requestCallBack
         Props used: token, projects, loading, redirect_home
