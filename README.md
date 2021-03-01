@@ -7,7 +7,7 @@ Overview:
 
 
 ```
-    **Code setup:**
+    **Code** **setup:**
         File Name: CustomerSideSelectProject.jsx
         Sub-component: CustomerSideNavbar.jsx, CustomerSideSelectProjectCards.jsx
         Actions: getProjects, logout, requestCallBack
